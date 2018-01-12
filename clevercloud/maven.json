@@ -1,1 +1,5 @@
-"-Dtest.active=false -Dexec.mainClass=\"org.sid.CookieApplication\" assembly:jar-with-dependencies exec:java"
+  {
+    "deploy": {
+      "goal":"-Dtest.active=false -Dexec.mainClass=\"org.sid.CookieApplication\" assembly:jar-with-dependencies exec:java"
+      }
+  }
